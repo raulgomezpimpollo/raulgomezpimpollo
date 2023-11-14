@@ -2,13 +2,19 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
+    background-color: #3498db; /* Cambié el color principal a azul */
+    color: #fff;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+    background-color: #2980b9; /* Cambié el color del encabezado a un tono más oscuro de azul */
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 nav ul {
@@ -26,15 +32,19 @@ nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Agregué una transición de color para suavizar los cambios */
 }
 
-.container {
-    width: 50%;
-    margin: 50px auto;
-    text-align: center;
+nav a:hover {
+    color: #ecf0f1; /* Cambié el color al pasar el ratón sobre el enlace */
 }
 
 h1, h2 {
-    color: #333;
+    color: #fff;
+}
+
+section {
+    padding: 50px 0;
 }
 
